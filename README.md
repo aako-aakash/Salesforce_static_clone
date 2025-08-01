@@ -1,6 +1,123 @@
-# Salesforce_static_clone
-This is just a static clone of Salesforce.
-<br>
-I just made this for practice purpose using just HTML and CSS.
-<br>
-Author:- AAKASH
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Salesforce</title>
+    <link
+    href="https://cdn.jsdelivr.net/npm/remixicon@4.5.0/fonts/remixicon.css"
+    rel="stylesheet"
+/>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="main">
+        <div id="header">
+            <div id="logo">
+                <img src="https://www.salesforce.com/content/dam/sfdc-docs/www/logos/logo-salesforce.svg" alt="logo">
+            </div>
+            <div class="texts"><p>Products</p></div>
+            <div class="texts"><p>Industries</p></div>
+            <div class="texts"><p>Customers</p></div>
+            <div class="texts"><p>Learning</p></div>
+            <div class="texts"><p>Support</p></div>
+            <div class="texts"><p>More</p>
+                <i class="ri-arrow-drop-down-line"></i></div>
+            <div id="contacts">
+                <p style="text-align: center;"><u>Contact Us</u></p>
+                <p>0000-000-0000</p>
+            </div>
+            <div class="icon"><i class="ri-search-line"></i></div>
+            <div class="icon"><i class="ri-global-line"></i></div>
+            <div id="login">
+                <i class="ri-user-3-fill"></i>
+                <p>Login</p>
+            </div>
+            <div id="try"><p>Try For Free</p></div>
+        </div>
+        <div id="fakeHeader"></div>
+        <div id="page1">
+            <div id="strip">
+                <p>Learn why Gartner recognized Salesforce as the World's #1 Leader in Customer Data Platforms (CDP)          Get the report</p>
+                <u> Get the report</u>
+            </div>
+            <div id="content">
+                <div id="box1">
+                    <h1>Try Salesforce Starter Suite for free.</h1>
+                    <p>Unite marketing, sales, and service in a single app. Try Salesforce Starter Suite today. There's nothing to install. No credit card required.</p>
+                    <div id="btns">
+                        <div id="btn1">Start free trial</div>
+                        <div id="btn2">Watch Demo</div>
+                    </div>
+                </div>
+                <div id="box2">
+                    <img src="https://wp.sfdcdigital.com/en-ap/wp-content/uploads/sites/14/2024/02/php-marquee-starter-lg-bg.jpg?resize=2048,640" alt="backgroundimage">
+                    <div id="card"></div>
+                    <img src="https://wp.sfdcdigital.com/en-ap/wp-content/uploads/sites/14/2024/02/php-marquee-starter-lg-bg.jpg?resize=2048,640" alt="Background image...">
+                    <a href="https://www.salesforce.com/products/what-is-salesforce/video/" target="_blank">
+                       <img src="your-thumbnail.jpg" alt="Watch Salesforce Video" style="width:100%; max-width:800px;" />
+                   </a>
+
+                </div>
+            </div>
+            <div id="heading"><h1>Learn what Salesforce products can do for you.</h1></div>
+        </div>
+        <div id="page2">
+            <img src="https://wp.sfdcdigital.com/en-in/wp-content/uploads/sites/21/2023/03/pb-hp-products-bg.png?resize=2048,625" alt="bgimage">
+            <div id="ShowCard">
+                   
+                <div id="Card1" class="showcards">
+                  
+                    <div id="card1block">
+                        <h2>Small Business</h2>
+                        <p>Sales, service, and email outreach tools in a single app.</p>
+                        <a href="https://www.salesforce.com/in/products/salesforce-starter/?d=pc1-btn-smblearn">Learn more</a>
+                    </div>
+                 
+                </div>
+                <div id="Card2" class="showcards">
+                    <div id="c2bckimage">
+
+                    </div>
+                    <div id="sales">
+                        Sales Cloud
+                    </div>
+                    <p>
+                        Close more deals and speed up growth with the #1 CRM.
+
+                    </p>
+                    <a href="https://www.salesforce.com/in/products/sales/?d=pc2-btn-saleslearn">Learn More</a>
+                </div>
+                <div id="Card3" class="showcards">
+                    <div id="c3bckimage">
+
+                    </div>
+                    <div id="service">Service Cloud</div>
+                    <p>Make customers happy faster and build loyalty with Service Cloud.</p>
+                    <a href="https://www.salesforce.com/in/products/service/?d=pc3-btn-servlearn">Learn More</a>
+                </div>
+                <div id="Card4" class="showcards">
+                    <div id="c4bckimage">
+
+                    </div>
+                    <div id="marketing">Marketing Cloud</div>
+                    <p>Build customer relationships for life with data-first digital marketing.</p>
+                    <a href="https://www.salesforce.com/in/products/marketing-cloud/overview/?d=pc4-btn-mktglearn">Learn More</a>
+                </div>
+            </div>
+             
+            
+        </div>
+        <div id="page3">
+            
+            <div id="footerimage">
+                
+            </div>
+        </div>
+        
+    </div>
+    
+        
+    </div>
+</body>
+</html>
