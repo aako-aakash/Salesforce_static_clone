@@ -1,0 +1,394 @@
+*{
+    margin:0%;
+    padding:0%;
+    box-sizing:border-box;
+}
+
+html,body{
+    height:100%;
+    width:100%;
+}
+
+
+#main{
+    height: 100%;
+    width: 100%;
+    background-color: palevioletred;
+}
+
+#header{
+    z-index: 57;
+    position: fixed;
+    height: 13%;
+    width: 100%;
+    background-color:white;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+#logo{
+    height: 70%;
+    
+}
+
+#logo img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.texts{
+    display: flex;
+    
+    color: rgb(14, 1, 87);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.texts:hover{
+    color: rgb(36, 36, 247);
+}
+
+#contacts{
+    
+    font-weight: lighter;
+}
+
+#contacts:hover{
+    color: rgb(36, 36, 247);
+}
+
+#fakeHeader{
+    height: 13%;
+    width: 100%;
+    background-color: white
+}
+
+.icon{
+    
+    padding: 10px;
+    border-radius: 50%;
+}
+
+.icon:hover{
+    background-color: lightblue;
+}
+
+
+#login{
+    display: flex;
+    padding: 10px;
+    border-radius: 50px;
+
+}
+
+#login:hover{
+    background-color: lightblue;
+}
+
+#try{
+    background-color: green;
+    padding: 10px 20px;
+    color: white;
+    border-radius: 3px;
+}
+
+#try:hover{
+    background-color: rgb(2, 66, 2);
+}
+
+
+#page1{
+    height: 87%;
+    width: 100%;
+    background-color: aquamarine;
+
+}
+
+#strip{
+    width: 100%;
+    height: 11%;
+    background-color: rgb(39, 2, 113);
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+
+#strip u{
+    margin-left: 23px;
+    font-weight:lighter ;
+}
+
+#content{
+    display: flex;
+    width: 100%;
+    height: 76%;
+    background-color: white;
+}
+
+#box1{
+    margin: 10px;
+    height: 97%;
+    width: 50%;
+    
+   
+}
+#box1 h1{
+    margin: 37px 10px;
+    color: rgb(2, 2, 85);
+    font-size: 57px;
+    font-family: cursive;
+}
+#box1 p{
+    margin: 37px 10px;
+    font-size: 27px;
+}
+#btns{
+    display: flex;
+    margin: 27px;
+}
+
+#btn1{
+    margin: 10px;
+    text-align: center;
+    font-size: large;
+    width: 23%;
+    padding: 10px;
+    color: white;
+    background-color: rgb(50, 50, 206);
+     border: 2px solid rgb(50, 50, 206);
+     border-radius: 3px;
+}
+#btn1:hover{
+    background-color: rgb(5, 5, 63);
+    border-color: rgb(5, 5, 63);
+}
+
+#btn2{
+    margin: 10px;
+    text-align: center;
+    width: 23%;
+    padding: 10px;
+    color: rgb(50, 50, 206);
+    background-color: white;
+    border: 2px solid rgb(50, 50, 206);
+    border-radius: 3px;
+}
+
+#btn2:hover{
+    background-color: lightblue;
+    border-color: rgb(5, 5, 63);
+    color: rgb(5, 5, 63);
+}
+
+#box2{
+    margin: 10px;
+    height: 97%;
+    width: 50%;
+    
+}
+#box2 img{
+    position: absolute;
+    width: 50%;
+    height: 50%;
+    object-fit: cover;
+}
+
+
+#card{
+    position: absolute;
+    width: 50%;
+    height: 65%;
+    border: 2px solid lightblue;
+    border-radius: 3px;
+}
+
+
+#heading{
+    font-size: x-large;
+    width: 100%;
+    height: 13%;
+    color: rgb(20, 4, 82);
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#page2{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    height: 87%;
+    width: 100%;
+    
+}
+#page2 img{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    object-fit: cover;
+}
+
+
+#ShowCard{
+    width: 100%;
+    height: 83%;
+    display: flex;
+
+
+
+}
+.showcards{
+    margin-left: 13px;
+    margin-right: 13px;
+    text-align: center;
+    height: 93%;
+    width: 23%;
+    background-color: white;
+    border: 1px solid black;
+    border-radius: 7px;
+    z-index: 4;
+    
+    
+}
+.showcards a{
+    font-size: large;
+}
+
+#Card1{
+    background-image: url(https://wp.sfdcdigital.com/en-in/wp-content/uploads/sites/21/2023/03/pb-hp-product-smb_icon-1.jpg?w=873);
+    background-size:110%;
+    overflow: hidden;
+    
+}
+/* #Card1 background-image:hover{
+    zoom:23%;
+} */
+#card1block{
+    height: 53%;
+    width: 100%;
+    background-color: white;
+    transform: translate(0%,78%);
+
+}
+
+#card1block h2{
+    color: rgb(8, 8, 73);
+    margin-bottom: 50px;
+}
+#card1block h2:hover{
+    color: blue;
+}
+
+#card1block p{
+    margin-bottom: 70px;
+}
+
+#Card2{
+    overflow: hidden;
+}
+#c2bckimage{
+    background-image: url(https://wp.sfdcdigital.com/en-in/wp-content/uploads/sites/21/2023/03/pb-hp-product-smb_icon-2.jpg?resize=768,433);
+    background-size: cover;
+    overflow: hidden;
+    height: 48%;
+    width: 100%;
+    background-color: lightblue;
+
+}
+#sales{
+    height: 10%;
+    width: 50%;
+    transform: translate(50%,0%);
+    color: rgb(10, 10, 72);
+    font-size: 27px;
+    margin-bottom: 30px;
+
+
+}
+#sales:hover{
+    color: blue;
+}
+#Card2 p{
+    margin-bottom: 50px;
+}
+
+#Card3{
+    overflow: hidden;
+}
+#c3bckimage{
+    background-image: url(https://wp.sfdcdigital.com/en-in/wp-content/uploads/sites/21/2023/03/pb-hp-product-smb_icon-3.jpg?resize=768,433);
+    background-size: cover;
+    height: 48%;
+    width: 100%;
+    background-color: lightblue;
+
+
+}
+#service{
+    height: 10%;
+    width: 50%;
+    transform: translate(50%,0%);
+    color: rgb(10, 10, 72);
+    font-size: 27px;
+    margin-bottom: 30px;
+
+}
+#service:hover{
+    color: blue;
+}
+
+
+#Card3 p{
+    margin-bottom: 50px;
+}
+
+#Card4{
+    overflow: hidden;
+}
+#c4bckimage{
+    background-image: url(https://wp.sfdcdigital.com/en-in/wp-content/uploads/sites/21/2023/03/pb-hp-product-smb_icon-4.jpg?resize=768,433);
+    background-size: cover;
+    height: 48%;
+    width: 100%;
+    
+}
+
+#marketing{
+    height: 10%;
+    width: 100%;
+    transform: translate(5%,0%);
+    color: rgb(10, 10, 72);
+    font-size: 27px;
+    margin-bottom: 30px;
+
+}
+
+#marketing:hover{
+    color: blue;
+}
+
+#Card4 p{
+    margin-bottom: 50px;
+}
+
+
+#page3{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    height: 87%;
+    width: 100%;
+
+    
+}
+
+#footerimage{
+    width: 100%;
+    height: 100%;
+    background-image: url("/footerimg.png");
+    background-size: cover;
+}
